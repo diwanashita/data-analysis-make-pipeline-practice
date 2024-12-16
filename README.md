@@ -24,11 +24,20 @@ Activate the conda environment:
 conda activate da-pipeline-make
 ```
 
-Run the analysis:
+#### Run the analysis using Makefile:
 
 ```
-bash runall.sh
+make all
 ```
+
+This command will execute the entire data analysis pipeline, including counting words, generating plots, and rendering the report.
+
+#### Clean up generated files:
+```
+make clean
+```
+
+This command will reset the analysis to its starting point. It will remove all generated files and figures. 
 
 ### Exercise:
 
